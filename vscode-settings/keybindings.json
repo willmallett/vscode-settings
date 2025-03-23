@@ -1,8 +1,16 @@
-// Dependencies:
-// -- vim extension
-// -- jest extension
-// -- gitlens extension
-// -- open in browser extension - alt+b opens in browser
+// Base Dependencies:
+// - vim extension
+// - gitlens extension
+// - open in browser extension - alt+b opens in browser
+// - github copilot & chat extension
+// - GraphQL Feature support
+// - GraphQL Syntax Highlighting
+
+// JS:
+// - ESLint (ms), Prettier code formatter, Jest runner 
+
+// Python:
+// - Pylance, Python, Python Debugger (debyggpy)
 
 // possible vim modes: https://marketplace.visualstudio.com/items?itemName=vscodevim.vim#vim-modes
 
