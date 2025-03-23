@@ -1,0 +1,98 @@
+
+{
+    "files.autoSave": "afterDelay",
+    "update.showReleaseNotes": false,
+    "workbench.colorTheme": "Jellybeans.vim",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.stickyScroll.enabled": false,
+    "editor.renderControlCharacters": false,
+    "workbench.statusBar.visible": true,
+    "vim.useSystemClipboard": true,
+    "editor.lineNumbers": "relative",
+    "vim.leader": "\\",
+    "workbench.activityBar.location": "bottom",
+    "workbench.iconTheme": "catppuccin-perfect-frappe",
+    "workbench.tree.indent": 16,
+    "workbench.sideBar.location": "right",
+    "editor.inlineSuggest.edits.showCollapsed": true,
+    "diffEditor.renderSideBySide": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // // File tree --------------------------------------
+        // {
+        //     "before": ["leader", "e"],
+        //     "commands": [
+        //         {
+        //             "command": "workbench.action.focusActiveEditorGroup",
+        //             "when": "sideBarFocus"
+        //         },
+        //         {
+        //             "command": "workbench.action.toggleSidebarVisibility",
+        //             "when": "sideBarFocus"
+        //         },
+        //         {
+        //             "command": "workbench.view.explorer",
+        //             "when": "!sideBarVisible"
+        //         }
+        //     ]
+        // },
+
+        // // Terminal -- Only allows toggling open. cmd+shift+r works (defined in keybindings.json)
+        // {
+        //     "before": ["leader", "t"],
+        //     "commands": ["workbench.action.terminal.toggleTerminal"]
+        // },
+
+        // // Find: --------------------------------------
+        // {
+        //     "before": ["leader", "f", "f"],
+        //     "commands": ["workbench.action.quickOpen"]
+        // },
+        // {
+        //     "before": ["leader", "f", "l"],
+        //     "commands": ["workbench.action.showAllEditorsByMostRecentlyUsed"]
+        // },
+        // {
+        //     "commands": ["references-view.findReferences"],
+        //     "before": ["leader", "f", "u"],
+        // },
+
+        // // Search: --------------------------------------
+        // {
+        //     "before": ["leader", "s", "g"],
+        //     "commands": ["workbench.action.findInFiles"]
+        // },
+        // {
+        //     "before": ["leader", "s", "f"],
+        //     "commands": ["workbench.action.showCommands"]
+        // },
+
+        // // Open recent projects: --------------------------
+        // {
+        //     "before": ["leader", "o", "r"],
+        //     "commands": ["workbench.action.openRecent"]
+        // },
+
+        // // Split right --------------------------------------
+        // {
+        //     "before": ["leader", "w", "s"],
+        //     "commands": ["workbench.action.splitEditorRight"]
+        // },
+
+        // // Close --------------------------------------
+        // {
+        //     "before": ["leader", "c", "f"],
+        //     "commands": ["workbench.action.closeActiveEditor"]
+        // },
+        // {
+        //     "before": ["leader", "c", "o"],
+        //     "commands": ["workbench.action.closeOtherEditors"]
+        // },
+        // {
+        //     "before": ["leader", "c", "p"],
+        //     "commands": ["workbench.action.closeFolder"]
+        // }
+        
+    ],
+}
