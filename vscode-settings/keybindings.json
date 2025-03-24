@@ -217,8 +217,24 @@
         "command": "editor.debug.action.showDebugHover",
         "when": "vim.mode == 'Normal' && inDebugMode && (editorTextFocus || !inputFocus)"
     },
-
-
+    // evaluate: (debug watch view)
+    {
+        "key": "space d w",
+        "command": "workbench.debug.action.focusWatchView",
+        "when": "vim.mode == 'Normal' && inDebugMode && (editorTextFocus || !inputFocus)"
+    },
+    {
+        "key": "shift+n",
+        "command": "workbench.debug.viewlet.action.addWatchExpression",
+        "when": "inDebugMode && !editorTextFocus && !inputFocus"
+    },
+    {
+        "key": "shift+w",
+        "command": "workbench.debug.viewlet.action.removeAllWatchExpressions",
+        "when": "inDebugMode && !editorTextFocus && !inputFocus"
+    },
+    
+    
     // close tab (delete buffer)
     {
         "key": "space b d",
