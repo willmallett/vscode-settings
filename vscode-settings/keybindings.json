@@ -543,6 +543,6 @@
         "key": "ctrl+shift+c",
         "command": "workbench.panel.chat",
         "when": "workbench.panel.chat.view.copilot.active"
-    },
+    }
 
 ]
