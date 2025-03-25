@@ -344,6 +344,12 @@
         "command": "git.stage",
         "when": "vim.mode == 'Normal' && (isInDiffEditor || (editorTextFocus || !inputFocus))"
     },
+    // This sort of works, but just adds line by line, not the whole change...
+    // {
+    //     "key": "space g a",
+    //     "command": "git.stageSelectedRanges",
+    //     "when": "vim.mode == 'Visual' && (isInDiffEditor || (editorTextFocus || !inputFocus))"
+    // },
 
 
     // god mode
