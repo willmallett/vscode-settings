@@ -1,8 +1,7 @@
-
 {
     "files.autoSave": "afterDelay",
     "update.showReleaseNotes": false,
-    "workbench.colorTheme": "Jellybeans.vim",
+    "workbench.colorTheme": "Tokyo Night",
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": false,
     "editor.renderWhitespace": "none",
@@ -18,6 +17,19 @@
     "workbench.sideBar.location": "right",
     "editor.inlineSuggest.edits.showCollapsed": true,
     "diffEditor.renderSideBySide": true,
+    "workbench.panel.defaultLocation": "bottom",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "database-client.telemetry.usesOnlineServices": false,
+    "sqltools.connections": [],
     "vim.normalModeKeyBindingsNonRecursive": [
         // // File tree --------------------------------------
         // {
@@ -94,5 +106,5 @@
         //     "commands": ["workbench.action.closeFolder"]
         // }
         
-    ],
+    ]
 }

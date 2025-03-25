@@ -107,6 +107,13 @@
         "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
     },
 
+    // Comparing active file with another file
+    {
+        "key": "space f c",
+        "command": "workbench.files.action.compareFileWith",
+        "when": "vim.mode == 'Normal' && editorTextFocus"
+    },
+
     // go to sql tools
     {
         "key": "ctrl+shift+d",
