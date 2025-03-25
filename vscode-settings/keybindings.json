@@ -409,7 +409,7 @@
             "commands": [
                 "workbench.action.splitEditorDown",
                 "explorer.openAndPassFocus",
-                "workbench.action.closeOtherEditors",
+                "workbench.action.closeOtherEditors"
             ]
         }
     },
@@ -418,7 +418,7 @@
     {
         "key": "enter",
         "command": "explorer.openAndPassFocus",
-        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourcIsRoot && !explorerResourceReadonly && !inputFocus",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourcIsRoot && !explorerResourceReadonly && !inputFocus"
     },
 
 
@@ -497,12 +497,12 @@
     {
         "key": "shift+j",
         "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus",
+        "when": "terminalFocus"
     },
     {
         "key": "shift+k",
         "command": "workbench.action.terminal.focusPrevious",
-        "when": "terminalFocus",
+        "when": "terminalFocus"
     },
     {
         "key": "alt+j",
