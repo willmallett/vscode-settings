@@ -1,4 +1,5 @@
 {
+    "window.commandCenter": false,
     "files.autoSave": "afterDelay",
     "update.showReleaseNotes": false,
     "workbench.colorTheme": "Tokyo Night",
