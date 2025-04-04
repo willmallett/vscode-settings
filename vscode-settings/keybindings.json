@@ -344,7 +344,6 @@
         "command": "git.stage",
         "when": "vim.mode == 'Normal' && (isInDiffEditor || (editorTextFocus || !inputFocus))"
     },
-    // This sort of works, but just adds line by line, not the whole change...
     // {
     //     "key": "space g a",
     //     "command": "git.stageSelectedRanges",
@@ -400,6 +399,12 @@
         "command": "explorer.newFolder",
         "when": "filesExplorerFocus && foldersViewVisible && !explorerResourcIsRoot && !explorerResourceReadonly && !inputFocus"
     },
+    {
+        "key": "space c c",
+        "command": "workbench.files.action.collapseExplorerFolders",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourcIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+
 
     // splits
     {
@@ -439,6 +444,11 @@
         "command": "extension.debugJest",
         "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
     },
+    {
+        "key": "space t p",
+        "command": "extension.runPrevJest",
+        "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+    },
 
     // // Run tests: (Jest extension)
     // {
@@ -462,8 +472,25 @@
     //     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
     // },
     // {
-    //     "key": "space t r",
+    //     "key": "space t o",
     //     "command": "testing.showMostRecentOutput",
+    //     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+    // },
+    // {
+    //     "key": "space t r",
+    //     "command": "testing.reRunLastRun",
+    //     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+    // },
+
+    // vitest
+    {
+        "key": "space v t",
+        "command": "vitest.revealInTestExplorer",
+        "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+    },
+    // {
+    //     "key": "space v d",
+    //     "command": "extension.debugJest",
     //     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
     // },
 
